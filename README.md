@@ -17,7 +17,7 @@ The "productive" code does not include a ``main`` method (or entry-point) as the
 
 Since the exercise was not too complex to code (being that it consisted only of modeling the domain), there were not too many "good practices" to follow or to adhere to.
 
-However, the key good development practice applied here is the notion of **"programming against interfaces"** and the use of **inheritance** and **polymorphism** to leverage the code's extensibility, maintainability, and testability.
+However, the key good development practice applied here is the notion of **"programming against interfaces"** and the use of **inheritance** and **polymorphism** to leverage code extensibility, maintainability, and testability.
 
 Other than that, ``BigDecimal`` was used to represent money-related information as recommended [here](http://www.javapractices.com/topic/TopicAction.do?Id=13).
 
