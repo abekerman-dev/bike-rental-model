@@ -21,7 +21,7 @@ However, the key good development practice applied here is the notion of **"prog
 
 Other than that, ``BigDecimal`` was used to represent money-related information as recommended [here](http://www.javapractices.com/topic/TopicAction.do?Id=13).
 
-Finally, unit tests were designed with simple mock-returning simple static getters due to the simplicity of scenarios being tested and especially due to the fact that this code features no real-life, production-like dependencies (in which case more powerful frameworks such as [Mockito](https://site.mockito.org/) should be favored).
+Finally, unit tests were designed with simple mock-returning static getters in mind due to the simplicity of scenarios being tested and especially due to the fact that this code features no real-life, production-like dependencies (in which case more powerful frameworks such as [Mockito](https://site.mockito.org/) should be favored).
 
 ## How to run the tests
 
