@@ -15,7 +15,6 @@ import java.math.RoundingMode;
 import org.junit.Test;
 
 import com.intivefdv.exam.bikerentalcompany.exception.IllegalRentalAmountException;
-import com.intivefdv.exam.bikerentalcompany.model.FamilyRental;
 import com.intivefdv.exam.bikerentalcompany.model.Rental;
 
 /**
