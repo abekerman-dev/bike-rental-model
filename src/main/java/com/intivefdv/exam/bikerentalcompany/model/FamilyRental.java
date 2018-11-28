@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.intivefdv.exam.bikerentalcompany.exception.IllegalRentalAmountException;
 
-public class FamilyRental implements Rental {
+public final class FamilyRental implements Rental {
 	
 	private static final BigDecimal DISCOUNT_FACTOR = BigDecimal.valueOf(0.7);
 

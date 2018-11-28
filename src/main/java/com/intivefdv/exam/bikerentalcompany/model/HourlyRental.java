@@ -3,7 +3,7 @@ package com.intivefdv.exam.bikerentalcompany.model;
 import java.math.BigDecimal;
 import java.time.temporal.ChronoUnit;
 
-public class HourlyRental extends AbstractRental {
+public final class HourlyRental extends AbstractRental {
 
 	public HourlyRental(int timeUnitAmount) {
 		super(timeUnitAmount);
